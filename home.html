@@ -1,56 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Html haqda məqalə</title>
-    <link href="./styles.css">
-</head>
-<body>
-    <h1>Html nedir? Nece isdifade olunur?</h1>
-    <img src="html_tag.jpg.jpg" alt="html ile bağlı">
-    <p><b>HTML nədir</b> sualının cavabını vermədən öncə HTML qısaltmasının nə olduğunu öyrənək:</p>
-       <p> HTML, Hipermətn İşarətlənmə Dili (Hypertext Markup Language) olaraq adlandırılıb.</p>   
-       <p>Web səhifələrini yaratmaq üçün istifadə olunan mətn işləmə dilidir.</p><br>
-       <hr>
-    <h2>Nece isdifade olunur?</h2>
-    <p>HTML kodlarını <b>Atom, Sublime Text, Notepad++</b> v.s kimi text editor proqramları vasitəsi ilə yaza bilərsiniz.</p>
-    <p>Yeni başlayanlar üçün Github tərəfindən, Electron ilə yazılan Atom proqramında işləmələrini tövsiyə edirəm.</p>
-    <p>Daha sonra istəyə uyğun olaraq VS Code ilə də işləyə bilərsiniz</p>
-    <img src="html_tags.jpg (2).jpg"><br><br>
-    <strong>
-    <p><i>Narahat olmayın hamısı üzərində ayrı-ayrı yazıb testlər aparacağıq.Hal-hazırda bütün bu elementləri əzbərə bilməyiniz şərt deyil təbii ki.</i></p> 
-    <p><h2>Əsas hansı elementin harada, nə zaman və nə üçün istifadə olunduğunu bilmək kifayətdir.</h2></p>
-    </strong>
-    <img src="html_tags.jpg.jpg">
-     <hr>
-    <ol>
-        <li>hr tag</li>
-        <li>P tag</li>
-        <li>img tag</li>
-        <li>h1;h2;h3;h4;h5;h6 tags</li>
-        <li>br tag</li>
-        <li>i tag</li>
-        <li>a tag</li>
-        <li>blockquote tag</li>
-        <li>b tag</li>
-    </ol>
-    <table>
-        <tr>
-            <th>Məkdub</th>
-            <th>Gönderilen ölke</th>
-            <th>Qebul edilen yerler</th>
-        </tr>
-
-        <tr>
-            <th>esger mektubu</th>
-            <th>azerbaycan</th>
-            <th>baku</th>
-        </tr>
-    </table>
-   
-    <input></input>
-
-    
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Menu</title>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="menu">
+      <main>
+        <h1>CAMPER CAFE</h1>
+        <p class="established">Est. 2020</p>
+        <hr>
+        <section>
+          <h2>Coffee</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
+          <article class="item">
+            <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Mocha</p><p class="price">4.50</p>
+          </article>
+        </section>
+        <section>
+          <h2>Desserts</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+          <article class="item">
+            <p class="dessert">Donut</p><p class="price">1.50</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+          </article>
+        </section>
+      </main>
+      <hr class="bottom-line">
+      <footer>
+        <p>
+          <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
+        </p>
+        <p class="address">123 Free Code Camp Drive</p>
+      </footer>
+    </div>
+  </body>
 </html>
