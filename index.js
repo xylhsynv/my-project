@@ -12,32 +12,14 @@ const { name,...rest}=studentProfile
 
 const grades=[85,92,78,95]
 
-//console.log(grades[0]);
-//console.log(grades[1]);
+console.log(grades[0]);
+console.log(grades[1]);
 
-//const additionalInfo={
+const additionalInfo={
     adderss:'bileceri',
-    phoneNuber:'775037461',
+    phoneNuber: 775037461,
 }
-
-
 const completeProfil={
     ...studentProfile,...additionalInfo
 }
-//console.log(completeProfil);
-
-
-
-
-
-const employeeDetails={
-    fullName:'',
-    position:'',
-    yearsOfExperience:'',
-    skills:[],
-    contact:{
-        email:"",
-        phone:'',
-    }
-}
-console.log(employeeDetails);
+console.log(completeProfil);
