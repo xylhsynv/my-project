@@ -1,5 +1,6 @@
 const numbers = [10, 20, 30, 40, 50]
 const [firstNumber, secondNumber] = numbers
+console.log(secondNumber);
 
 console.log(numbers);
 console.log(numbers.length);
