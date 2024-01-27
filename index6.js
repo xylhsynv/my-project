@@ -13,25 +13,30 @@ switch (color) {
         console.log("unknown colors");
         break;
 }
-const matrix = [[1, 2], [3, 4]];
+const matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
 for (let i = 0; i < matrix.length; i++) {
-    console.log(matrix);
-
+    for (let j = 0; j < matrix[i].length; j++) {
+        console.log(matrix[i], [j]);
+    }
 }
+
 const product = {
     name: "xeyal",
     price: 18,
     inStock: true
 }
-// for (const key in object) {
-//     if (Object.hasOwnProperty.call(object, key)) {
-//         const element = object[key];
-//     }
-// }
-if (productPrice < 50 && productinStocke) {
-    console.log(finsh);
+for (let key in product) {
+    console.log('${key}:${product[key]}');
+}
+
+if (product.price < 50 && product.inStock) {
+    console.log("Available");
 } else {
-    console.log(nofinsh);
+    console.log("Unavailable");
 }
 
 
