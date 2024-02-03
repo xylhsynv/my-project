@@ -1,58 +1,58 @@
-function f3() {
-    console.log('fuck xeyal');
-}
-function f4() {
-    f3()
-    console.log('fuck ruslan');
-}
-f3()
+// function f3() {
+//     console.log('fuck xeyal');
+// }
+// function f4() {
+//     f3()
+//     console.log('fuck ruslan');
+// }
+// f3()
 
-
-function recurse() {
-    console.log("fucuk");
-    recurse();
-
-}
-
-recurse();
 
 // function recurse() {
-//     if (condition) {
-//         recurse();
-//     }
-//     else {
-//         stop calling recurse()
-//     }
+//     console.log("fucuk");
+//     recurse();
+
 // }
 
 // recurse();
 
+// // function recurse() {
+// //     if (condition) {
+// //         recurse();
+// //     }
+// //     else {
+// //         stop calling recurse()
+// //     }
+// // }
 
-function countDown(number) {
-    console.log(number);
-
-    const newNumber = number - 1;
-    if (newNumber > 0) {
-        countDown(newNumber)
-
-    }
-}
-countDown(7)
+// // recurse();
 
 
-function factorial(y) {
-    if (y === 0) {
-        return 1;
-    }
-    else {
-        return y * factorial(y - 1);
-    }
-}
-const num = 3;
-if (num > 0) {
-    let result = factorial(num);
-    console.log(`The factorial of ${num} is ${result}`);
-}
+// function countDown(number) {
+//     console.log(number);
+
+//     const newNumber = number - 1;
+//     if (newNumber > 0) {
+//         countDown(newNumber)
+
+//     }
+// }
+// countDown(7)
+
+
+// function factorial(y) {
+//     if (y === 0) {
+//         return 1;
+//     }
+//     else {
+//         return y * factorial(y - 1);
+//     }
+// }
+// const num = 3;
+// if (num > 0) {
+//     let result = factorial(num);
+//     console.log(`The factorial of ${num} is ${result}`);
+// }
 
 
 
@@ -67,11 +67,11 @@ if (num > 0) {
 
 
 
-// function greet(name, greeting = 'hello') {
-//     return greeting + ' ' + name;
-// }
-// console.log(greet('salam'));
-// console.log(greet('fuck', 'shatap'));
+function greet(name, greeting = 'hello') {
+    return greeting + ' ' + name;
+}
+console.log(greet('salam'));
+console.log(greet('fuck', 'shatap'));
 
 const greet = (name, greeting = 'hello') => `${greeting} ${name}`;
 
