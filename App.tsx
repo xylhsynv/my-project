@@ -1,7 +1,8 @@
 import { StatusBar } from "expo-status-bar";
+import React from "react";
 import { Button, StyleSheet, Text, TextInput, View } from "react-native";
-export default function App() {
-  const buttonClk = () => {
+export default function App(): JSX.Element {
+  const buttonClk = (): void => {
     console.log("Forgot yur password");
   };
   return (
